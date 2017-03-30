@@ -61,6 +61,28 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="index_number" class="col-md-4 control-label">Index number:</label>
+
+                            <div class="col-md-6">
+                                <input id="index_number" type="text" class="form-control" name="index_number" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year" class="col-md-4 control-label">Year:</label>
+
+                            <div class="col-md-6">
+                                <select id="year" type="text" class="form-control" name="year" required>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
                                     Register
